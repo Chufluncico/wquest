@@ -1,0 +1,1010 @@
+/* ################# */
+/* ICONOS Y SIMBOLOS */
+/* ################# */
+
+i.dado {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/dado.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 30px;
+    width: 26px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.herida {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/herida.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 29px;
+    width: 24px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.ataque {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/ataque.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 28px;
+    width: 36px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.runa {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/runa.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 26px;
+    width: 25px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.exito {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/exito.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 29px;
+    width: 31px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.antagonista {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/antagonista.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 29px;
+    width: 41px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.escudo {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/escudo.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 30px;
+    width: 25px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.impacto {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/impacto.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 26px;
+    width: 28px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.critico {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/critico.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 27px;
+    width: 29px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+i.dadon {
+	position: relative;
+    bottom: -6px;
+    background: url('../img/iconos/dadon.png');
+    background-repeat: no-repeat;
+	background-size: 100%;
+    height: 29px;
+    width: 26px;
+    display: inline-block;
+    //margin-right: 0px;
+    z-index: 40;
+}
+
+
+
+/* ####################### */
+/* Estilos para las cartas */
+/* ####################### */
+
+.sangre svg {
+	z-index: 999;
+	position: absolute;
+}
+
+
+/* ########### */
+/* Tipografias */
+/* ########### */
+
+@font-face {
+    font-family: "Ardagh";
+    src: url(../fonts/Ardagh.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Casablanca";
+    src: url(../fonts/Casablanca_Antique_Plain.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Celestia";
+    src: url(../fonts/Celestia_Antiqua.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Celestia-sc";
+    src: url(../fonts/Celestia_Antiqua_SC.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Celestia-sb";
+    src: url(../fonts/CelestiaAntiquaStd-Semibold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Minion";
+    src: url(../fonts/MinionPro-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Caslon";
+    src: url(../fonts/CaslonAntique.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Domisc";
+    src: url(../fonts/DOMINICA.TTF) format("truetype");
+}
+
+.font-ardagh {
+	font-family: Ardagh, serif;
+}
+
+.font-casablanca {
+	font-family: Casablanca, serif;
+}
+
+.font-celestia {
+	font-family: Celestia, serif;
+}
+
+.font-celestia-sb {
+	font-family: Celestia-sb, serif;
+}
+
+.font-celestia-sc {
+	font-family: Celestia-sc, serif;
+}
+
+.font-crimson {
+	font-family: Crimson Text, serif;
+}
+
+.font-gentium {
+	font-family: Gentium Book Plus, serif;
+}
+
+.font-minion {
+	font-family: Minion, serif;
+}
+
+.font-caslon {
+	font-family: Caslon, serif;
+}
+
+.font-domisc {
+	font-family: Domisc, serif;
+}
+
+
+/* ################################## */
+/* Estilos para las cartas de mazmorra */
+/* ################################## */
+
+.carta-mazmorra  {
+	position: relative;
+	background-color: grey;
+}
+
+.carta-mazmorra .titulo-mazmorra {
+	position: absolute;
+	width: 555px;
+	height: 2px;
+	top: 110px;
+	//left: 65px;
+	padding: 0 80px;
+	//font-weight: 600;
+	//font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-mazmorra .tipo-mazmorra {
+	position: absolute;
+	width: 555px;
+	height: 2px;
+	top: 155px;
+	padding: 0 120px;
+	font-size: 40px;
+	text-transform: uppercase;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-mazmorra .texto-mazmorra {
+	position: absolute;
+	top: 220px;
+	width: 555px;
+	height: 270px;
+	padding: 0 90px;
+	//left: 400px;
+	z-index: 30;
+	//padding: 0 120px;
+	line-height: 1.2;
+}
+
+.carta-mazmorra .texto-mazmorra ul {
+	margin-bottom: 10px;
+	//padding: 0 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style-type: none;
+}
+
+.carta-mazmorra .flavor {
+	padding: 0 30px;
+	font-size: 95%;
+	font-style: italic;
+	line-height: 1.2;
+	margin-bottom: 14px;
+}
+
+
+/* ################################## */
+/* Estilos para las cartas de objetos */
+/* ################################## */
+
+.carta-objeto, .carta-objeto-basico  {
+	position: relative;
+	background-color: grey;
+}
+
+.carta-objeto .titulo-objeto {
+	position: absolute;
+	width: 510px;
+	height: 2px;
+	top: 440px;
+	left: 135px;
+	//font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-objeto-basico .titulo-objeto {
+	position: absolute;
+	width: 510px;
+	height: 2px;
+	top: 465px;
+	left: 160px;
+	//font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-objeto .subtitulo-objeto, .carta-objeto-basico .subtitulo-objeto {
+	position: absolute;
+	width: 420px;
+	height: 2px;
+	top: 490px;
+	left: 185px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-objeto .tipo-objeto {
+	position: absolute;
+	width: 490px;
+	height: 2px;
+	top: 75px;
+	left: 150px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-objeto-basico .tipo-objeto {
+	position: absolute;
+	width: 490px;
+	height: 2px;
+	top: 75px;
+	left: 170px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-objeto .texto-objeto {
+	position: absolute;
+	top: 120px;
+	width: 320px;
+	height: 270px;
+	left: 400px;
+	z-index: 30;
+	//padding: 0 120px;
+	line-height: 1.1;
+}
+
+.carta-objeto-basico .texto-objeto {
+	position: absolute;
+	top: 120px;
+	width: 295px;
+	height: 280px;
+	left: 425px;
+	z-index: 30;
+	//padding: 0 120px;
+	line-height: 1.1;
+}
+
+.carta-objeto .texto-objeto ul {
+	margin-bottom: 10px;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+.carta-objeto .texto-objeto li {
+	margin-bottom: 5px;
+}
+
+.carta-objeto-basico .texto-objeto ul {
+	margin-bottom: 10px;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+.carta-objeto-basico .texto-objeto li {
+	margin-bottom: 5px;
+}
+
+
+
+
+/* ################################# */
+/* Estilos para las cartas de heroes */
+/* ################################# */
+
+.carta-heroe {
+	position: relative;
+	//width: 1098px;
+	//height: 732px;
+	//font-family: 'Gentium Book Plus', serif;
+	background-color: grey;
+	//transform: scale(0.5);
+}
+
+.carta-heroe .img-fondo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.carta-heroe .img-heroe {
+	position: absolute;
+	//width: 100%;
+	//height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 19;
+}
+
+.carta-heroe .titulo-heroe {
+	position: absolute;
+	width: 490px;
+	height: 2px;
+	top: 645px;
+	left: 90px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-heroe .vida-heroe {
+	position: absolute;
+	top: 564px;
+	left: 800px;
+	width: 170px;
+	height: 2px;
+	font-size: 220px;
+	line-height: 0;
+	z-index: 31;
+	color: black;
+}
+
+.carta-heroe .vida-heroe-stroke {
+	position: absolute;
+	top: 564px;
+	left: 800px;
+	width: 170px;
+	height: 2px;
+	font-size: 220px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 8px white;
+}
+
+.carta-heroe .texto-heroe {
+	position: absolute;
+	top: 180px;
+	width: 340px;
+	height: 270px;
+	left: 720px;
+	z-index: 30;
+	//padding: 0 120px;
+	line-height: 1.2;
+}
+
+.carta-heroe .texto-heroe ul {
+	margin-bottom: 10px;
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+.carta-heroe .texto-heroe li {
+	margin-bottom: 5px;
+}
+
+.carta-heroe .flavor {
+	font-size: 90%;
+	font-style: italic;
+	//padding: 0 20px;
+	margin-bottom: 5px;
+}
+
+
+
+/* ################################ */
+/* Estilos para las cartas de lugar */
+/* ################################ */
+
+.carta-lugar {
+	position: relative;
+	//width: 732px;
+	//height: 1098px;
+	//font-family: 'Gentium Book Plus', serif;
+	background-color: grey;
+	//transform: scale(0.5);
+}
+
+.carta-lugar .img-fondo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.carta-lugar .img-lugar {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	z-index: 10;
+}
+
+.carta-lugar .nivel-lugar {
+	position: absolute;
+	width: 110px;
+	height: 2px;
+	top: 132px;
+	left: 56px;
+	font-size: 78px;
+	letter-spacing: -6px;
+	line-height: 0;
+	z-index: 30;
+	color: white;
+}
+
+.carta-lugar .titulo-lugar {
+	position: absolute;
+	width: 420px;
+	height: 2px;
+	top: 112px;
+	left: 230px;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-lugar .grupo-lugar {
+	position: absolute;
+	width: 440px;
+	height: 2px;
+	top: 164px;
+	left: 220px;
+	//font-weight: bold;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-lugar .texto-lugar {
+	position: absolute;
+	top: 624px;
+	width: 468px;
+	height: 410px;
+	left: 164px;
+	z-index: 30;
+	//padding: 0 120px;
+	line-height: 1.1;
+}
+
+.carta-lugar .texto-lugar ul {
+	//margin-bottom: 20px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.carta-lugar .texto-lugar li {
+	//margin-bottom: 3px;
+}
+
+.carta-lugar .flavor {
+	font-size: 95%;
+	font-style: italic;
+	line-height: 1.1;
+	margin-bottom: 14px;
+}
+
+.carta-lugar .exploracion-lugar {
+	position: absolute;
+	top: 1000px;
+	left: 590px;
+	width: 92px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 31;
+	color: black;
+}
+
+.carta-lugar .exploracion-lugar-stroke {
+	position: absolute;
+	top: 1000px;
+	left: 590px;
+	width: 92px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 8px white;
+}
+
+.carta-lugar .enemigos-luz {
+	position: absolute;
+	top: 870px;
+	left: 54px;
+	width: 78px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 31;
+	color: black;
+}
+
+.carta-lugar .enemigos-luz-stroke {
+	position: absolute;
+	top: 870px;
+	left: 54px;
+	width: 78px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 8px white;
+}
+
+
+.carta-lugar .enemigos-sombra {
+	position: absolute;
+	top: 990px;
+	left: 54px;
+	width: 78px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 31;
+	color: black;
+}
+
+.carta-lugar .enemigos-sombra-stroke {
+	position: absolute;
+	top: 990px;
+	left: 54px;
+	width: 78px;
+	height: 2px;
+	font-size: 128px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 8px white;
+}
+
+
+
+
+/* ############################################### */
+/* Estilos para las cartas de accion de los heroes */
+/* ############################################### */
+
+.carta-accion {
+	position: relative;
+	//width: 732px;
+	//height: 1098px;
+	//font-family: 'Gentium Book Plus', serif;
+	background-color: black;
+	//transform: scale(0.5);
+}
+
+.carta-accion .img-fondo-top {
+	position: absolute;
+	width: 100%;
+	//height: 100%;
+	top: 0;
+	z-index: 20;
+}
+
+.carta-accion .img-fondo-bottom {
+	position: absolute;
+	width: 100%;
+	//height: 100%;
+	bottom: 0;
+	z-index: 20;
+}
+
+.carta-accion .img-accion {
+	position: absolute;
+	top: 145px;
+	width: 100%;
+	z-index: 10;
+}
+
+.carta-accion .titulo-accion {
+	position: absolute;
+	width: 480px;
+	height: 2px;
+	top: 110px;
+	left: 180px;
+	//font-weight: bold;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-accion .texto-tipo-accion {
+	position: absolute;
+	top: 235px;
+	left: 50px;
+	width: 100px;
+	height: 2px;
+	//font-size: 14px;
+	//font-weight: bold;
+	z-index: 30;
+	//color: white;
+	line-height: 0;
+}
+
+.carta-accion .texto-accion {
+	position: absolute;
+	top: 590px;
+	width: 100%;
+	height: 415px;
+	z-index: 30;
+	padding: 0 80px;
+	font-size: 14px;
+	line-height: 1.1;
+}
+
+.carta-accion .texto-accion b {
+	font-variant: petite-caps;
+}
+
+.carta-accion .texto-accion ul {
+	//margin-bottom: 12px;
+	margin: 0;
+	padding-left: 20px;
+	//padding: 0;
+	list-style-type: none;
+}
+
+.carta-accion .texto-accion li {
+	margin-bottom: 12px;
+	//padding-left: 4px;
+}
+
+.carta-accion .texto-accion li:before {
+	content: '» '; 
+	font-size: 30px;
+	margin-left: -20px;
+}
+
+.carta-accion .flavor {
+	font-size: 90%;
+	font-style: italic;
+	text-align: center;
+	padding: 0 10px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.carta-accion .padding-preparacion {
+	padding-right: 60px !important;
+}
+
+.carta-accion .nivel-accion {
+	position: absolute;
+	bottom: 60px;
+	width: 430px;
+	height: 2px;
+	left: 150px;
+	//font-size: 18px;
+	//font-weight: bold;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-accion .img-preparar {
+	position: absolute;
+	bottom: 110px;
+	right: 70px;
+	z-index: 35;
+	//shape-outside: url(../img/iconos/preparar.png);
+	//shape-image-threshold: 0.5;
+	//shape-margin: 20px;
+	//float: right;
+}
+
+
+/* ################################### */
+/* Estilos para las cartas de enemigos */
+/* ################################### */
+
+.carta-enemigo {
+	position: relative;
+	//width: 732px;
+	//height: 1098px;
+	//font-family: 'Gentium Book Plus', serif;
+	background-color: grey;
+	//transform: scale(0.5);
+}
+
+.carta-enemigo .img-fondo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+}
+
+.carta-enemigo .img-enemigo {
+	position: absolute;
+	top: 136px;
+	width: 100%;
+	z-index: 10;
+}
+
+.carta-enemigo .nivel-enemigo {
+	position: absolute;
+	width: 94px;
+	height: 2px;
+	top: 124px;
+	left: 54px;
+	font-size: 78px;
+	letter-spacing: -6px;
+	line-height: 0;
+	z-index: 30;
+	color: white;
+}
+
+.carta-enemigo .titulo-enemigo {
+	position: absolute;
+	width: 475px;
+	height: 2px;
+	top: 95px;
+	left: 180px;
+	//font-weight: 600;
+	font-size: 40px;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-enemigo .subtitulo-enemigo {
+	position: absolute;
+	width: 420px;
+	height: 2px;
+	top: 151px;
+	left: 180px;
+	//font-weight: 600;
+	line-height: 0;
+	z-index: 30;
+}
+
+.carta-enemigo .vida-enemigo {
+	position: absolute;
+	top: 482px;
+	left: 575px;
+	width: 90px;
+	height: 2px;
+	font-size: 124px;
+	line-height: 0;
+	z-index: 31;
+	color: black;
+}
+
+.carta-enemigo .vida-enemigo-stroke {
+	position: absolute;
+	top: 482px;
+	left: 575px;
+	width: 90px;
+	height: 2px;
+	font-size: 124px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 8px white;
+}
+
+.carta-enemigo .resistencia-enemigo {
+	position: absolute;
+	top: 508px;
+	left: 500px;
+	width: 68px;
+	height: 2px;
+	font-size: 70px;
+	line-height: 0;
+	z-index: 31;
+	color: white;
+}
+
+.carta-enemigo .resistencia-enemigo-stroke {
+	position: absolute;
+	top: 508px;
+	left: 500px;
+	width: 68px;
+	height: 2px;
+	font-size: 70px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 4px black;
+}
+
+.carta-enemigo .daño-enemigo {
+	position: absolute;
+	top: 501px;
+	left: 50px;
+	width: 118px;
+	height: 2px;
+	font-size: 100px;
+	line-height: 0;
+	z-index: 31;
+	color: white;
+}
+
+.carta-enemigo .daño-enemigo-stroke {
+	position: absolute;
+	top: 501px;
+	left: 50px;
+	width: 118px;
+	height: 2px;
+	font-size: 100px;
+	line-height: 0;
+	z-index: 30;
+    -webkit-text-stroke: 6px black;
+}
+
+.carta-enemigo table.acciones-enemigo {
+	position: absolute;
+	top: 600px;
+	width: 626px;
+	height: 2px;
+	left: 48px;
+	font-size: 40px;
+	table-layout: fixed;
+	//padding: 0 70px;
+	//padding-left: 56px;
+	//padding-right: 64px;
+	z-index: 30;
+}
+
+.carta-enemigo .acciones-enemigo th {
+	padding: 0 24px;
+	font-variant: petite-caps;
+	letter-spacing: -1px;
+	line-height: 0;
+}
+
+.carta-enemigo .texto-enemigo {
+	position: absolute;
+	top: 692px;
+	width: 100%;
+	height: 365px;
+	z-index: 30;
+	padding: 0 130px;
+	line-height: 1.1;
+}
+
+.carta-enemigo .texto-enemigo-nemesis {
+	position: absolute;
+	top: 692px;
+	width: 100%;
+	height: 260px;
+	z-index: 30;
+	padding: 0 124px;
+	line-height: 1.1;
+}
+
+.carta-enemigo .texto-enemigo ul, .carta-enemigo .texto-enemigo-nemesis ul {
+	//margin-bottom: 20px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.carta-enemigo .texto-enemigo li, .carta-enemigo .texto-enemigo-nemesis li {
+	margin-bottom: 3px;
+}
+
+.carta-enemigo .texto-enemigo li:last-child, .carta-enemigo .texto-enemigo-nemesis li:last-child {
+	margin-bottom: 20px;
+}
+
+.carta-enemigo .flavor {
+	font-size: 95%;
+	font-style: italic;
+	padding: 0 20px;
+	margin-bottom: 0px;
+	//margin-top: 20px;
+}
+
+.carta-enemigo .accion-nemesis {
+	position: absolute;
+	top: 970px;
+	width: 470px;
+	height: 76px;
+	left: 190px;
+	line-height: 1.1;
+	z-index: 30;
+}

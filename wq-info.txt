@@ -1,0 +1,17 @@
+Acciones heroes
+
+
+
+Carta heroe
+Lugares
+Enemigos
+Objetos
+Estados
+
+Heroes
+--Forestal
+----Acciones
+----Carta Heroe
+--Caballero Bretoniano
+----Acciones
+----Carta Heroe
